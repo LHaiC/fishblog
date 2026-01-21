@@ -1,7 +1,7 @@
 ---
 title: "关于采样算法在强约束组合优化中局限性的证明笔记"
-date: 2026-01-20
-lastmod: 2026-01-20
+date: 2026-01-20T10:50:30+08:00
+lastmod: 2026-01-20T13:01:55+08:00
 draft: false
 keywords: []
 description: ""
@@ -9,10 +9,34 @@ tags: ["Rl"]
 categories: ["学术"]
 author: "fish"
 
-# Configs
+# You can also close(false) or open(true) something for this content.
+# P.S. comment can only be closed
 comment: false
-toc: true
+toc: false
+autoCollapseToc: false
+postMetaInFooter: false
+hiddenFromHomePage: false
+# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
+contentCopyright: false
+reward: false
 mathjax: true
+mathjaxEnableSingleDollar: true
+mathjaxEnableAutoNumber: false
+
+# You unlisted posts you might want not want the header or footer to show
+hideHeaderAndFooter: false
+
+# You can enable or disable out-of-date content warning for individual post.
+# Comment this out to use the global config.
+#enableOutdatedInfoWarning: false
+
+flowchartDiagrams:
+  enable: true
+  options: ""
+
+sequenceDiagrams: 
+  enable: false
+  options: ""
 ---
 
 > **前言**：本文整理自实验室一次非正式的漫步研讨（Peripatetic Discussion）。前辈们在讨论中提出了一个关于“难度守恒”的精彩论证，揭示了强化学习在解决 EDA 等强约束问题时的本质困难。为了防止这些稍纵即逝的灵感消散在晚风中，特此记录。

@@ -1,7 +1,7 @@
 ---
 title: "逝川记rev. by 柳君"
-date: 2026-01-19
-lastmod: 2026-01-19
+date: 2026-01-19T13:28:18+08:00
+lastmod: 2026-01-19T19:14:43+08:00
 draft: false
 keywords: []
 description: ""
