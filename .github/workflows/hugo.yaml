@@ -31,6 +31,13 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      
+      - name: Verify submodule status
+        run: |
+          echo "Submodule status:"
+          git submodule status
+          echo "Theme layouts:"
+          ls -la themes/even/layouts/ideas/
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
